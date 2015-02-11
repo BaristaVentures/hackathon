@@ -1,0 +1,40 @@
+Webtalk is a new way to collaborate and showcase online for small businesses and freelancers. Think LinkedIn meets Dribbble.
+
+The next version of Webtalk will leverage these Webtalk Business Pages to support product and service listings. With hopes to match users to product and service recommendations, we will select a new product to offer on user's NewFeeds each day. Webtalk data analysts have created a model that determines the probability that a user will act an offer, and this model is updated daily.
+
+Therefore, each day we must produce a new value for each user.
+
+Our Business Users are restricted to one offer each day, which may be matched with only one User.
+
+Each day we will get the list of products/services that are eligible, and then we must decide which products to offer to which users.
+
+Webtalk data scientists have produced the following algorithm to calculate the ValueScore ("VS") between a user and a product/service:
+
+1. If the number of letters in the product/service name is even then the VS is the number of vowels (a, e, i, o, u, y) in the user's email* multiplied by 1.5.
+2. If the number of letters in the product/service name is odd then the VS is the number of consonants in the user's email*.
+3. If the number of letters in the product/service name shares any common factors (besides 1) with the number of letters in the user's email* then the VS is multiplied by 1.5.
+
+*username, not including '@', domain or extension
+
+Your assignment is to write a program that assigns each user with a product to be offered in a way that maximizes the combined total VS across all of the chosen offers.
+
+### There may be a different number of products/services and users. ###
+
+INPUT EXAMPLE:
+
+Your program should accept a file path as its only argument. Each line will be one test case. Each test case will be a comma delimited set of user emails followed by a semicolon and then a comma delimited set of product/service names. Assume the input file is ASCII encoded.
+
+rj@webtalk.org,jeff@webtalk.org,andrey@webtalk.org;4 week coding classes,Webinar Subscription: PRO,Design Consultation
+
+
+``
+dkonig@aol.com,jegervary@gmail.com,jmunkres@msn.com,wcai@aol.com,joshua@webtalk.org,gaba@nind.com,aadelson@aol.com;Jumanji Movie Edition No. 1,Football - American,1000 Marketing Signups,4 - CES Conference Tickets,Webinar Subscription: Standard,Webtalk Pro
+```
+
+OUTPUT SAMPLE:
+
+You need only to return the maximum VS, to two decimal places, for each line.
+```
+11.00
+38.25
+``
