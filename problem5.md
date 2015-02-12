@@ -10,3 +10,5 @@ curl -X POST -H "Content-Type: application/json" -d '{"email":"hackermantion","p
 
 
 Notes: Content type is json.
+
+POINTS: 2
