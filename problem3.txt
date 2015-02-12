@@ -1,3 +1,7 @@
+Points: 20
+
+
+
 Webtalk is a new way to collaborate and showcase online for small businesses and freelancers. Think LinkedIn meets Dribbble.
 
 The next version of Webtalk will leverage these Webtalk Business Pages to support product and service listings. With hopes to match users to product and service recommendations, we will select a new product to offer on user's NewFeeds each day. Webtalk data analysts have created a model that determines the probability that a user will act an offer, and this model is updated daily.

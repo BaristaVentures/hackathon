@@ -1,0 +1,7 @@
+Points: 8
+
+Privilege escalation
+
+Your task is to become root on a specific machine in your local network.
+
+TIP: 80

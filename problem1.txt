@@ -1,3 +1,5 @@
+Points: 8
+
 Estamos creando listados de palabras para pruebas diccionario. Sabemos que la clave a romper está compuesta por solo letras minúsculas en español, y que las palabras se están generando en orden ascendente. Por ejemplo, después de la clave aaa sigue la aab. La idea es, para cada uno de los T casos, encontrar la siguiente palabra.
 
 Salida:
@@ -12,7 +14,7 @@ T entre 1 y 100
 Ejemplo:
 
 Entrada		Salida
-3		aab
-aaa		abd
-abc		abba
+3		Caso #1: aab
+aaa		Caso #2: abd
+abc		Caso #3: abba
 abaz
